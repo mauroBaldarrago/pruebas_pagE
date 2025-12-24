@@ -99,13 +99,10 @@ def api_login():
             conexion.close()
 
 # Busca esta línea al final de tu app.py y reemplázala:
+# Busca esta línea al final de tu app.py y reemplázala:
 if __name__ == '__main__':
     # Usamos os.environ para que Render decida el puerto
     import os
     port = int(os.environ.get('PORT', 8000))
     # host='0.0.0.0' permite que Render "vea" tu app desde afuera
-<<<<<<< HEAD
     app.run(host='0.0.0.0', port=port, debug=False)
-=======
-    app.run(host='0.0.0.0', port=port, debug=False)
->>>>>>> 8f8c35743ee503abf207ebed4da1101410a76f57
